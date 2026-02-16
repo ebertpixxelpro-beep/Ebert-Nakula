@@ -1,0 +1,59 @@
+
+        /* Charismatic Buttons - Restored & Enhanced */
+        .btn-charismatic {
+            display: inline-block;
+            padding: 15px 40px;
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            color: var(--gold-accent);
+            font-family: var(--font-heading);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-decoration: none;
+            transition: all 0.5s ease;
+            position: relative;
+            overflow: hidden;
+            background: rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-right: 20px;
+        }
+
+        .btn-charismatic::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: var(--gold-accent);
+            transition: all 0.5s ease;
+            z-index: -1;
+        }
+
+        .btn-charismatic:hover {
+            color: #000;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+            border-color: var(--gold-accent);
+        }
+
+        .btn-charismatic:hover::before {
+            width: 100%;
+        }
+        
+        /* Secondary Button variant (implicit via separate class or structural targeting) */
+        .btn-charismatic-text {
+            border: none !important;
+            padding-left: 0 !important;
+            background: transparent !important;
+            color: #bbb !important;
+        }
+        
+        .btn-charismatic-text:hover {
+            color: #fff !important;
+            padding-left: 10px !important; /* Slide effect */
+            background: transparent !important;
+            box-shadow: none !important;
+        }
+        .btn-charismatic-text::before {
+             display: none;
+        }

@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+# Disallow system directories to save crawl budget
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /junk/
+
+# Prioritize Google Image Bot for Portfolio visibility
+User-agent: Googlebot-Image
+Allow: /
+Allow: /*.webp
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.svg
+
+# Block aggressive SEO bots to save bandwidth and server load
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Standard Sitemap Declaration
+Sitemap: https://ebert-nakula.vercel.app/sitemap.xml

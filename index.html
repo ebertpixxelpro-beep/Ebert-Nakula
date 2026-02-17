@@ -4,7 +4,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adiel Ebert Nakula Sahdiy | Portfolio</title>
+    <title>Adiel Ebert Nakula Sahdiy | Creative Web Developer & Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Portfolio Adiel Ebert Nakula Sahdiy - Creative Web Developer & Designer. Spesialisasi dalam desain web estetis, pengembangan aplikasi, dan solusi digital inovatif menggunakan teknologi modern.">
+    <meta name="keywords"
+        content="Adiel Ebert Nakula Sahdiy, Web Developer, Frontend Developer, Portfolio, Desain Web, Bootstrap, HTML, CSS, JavaScript, Jasa Website, UI/UX Designer">
+    <meta name="author" content="Adiel Ebert Nakula Sahdiy">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Local SEO for "Jawa, Indonesia" -->
+    <meta name="geo.region" content="ID-JW">
+    <meta name="geo.placename" content="Java">
+    <meta name="geo.position" content="-7.6145;110.7122">
+    <meta name="ICBM" content="-7.6145, 110.7122">
+    <!-- Canonical URL (Sesuaikan dengan domain asli Anda) -->
+    <link rel="canonical" href="https://ebert-nakula.vercel.app/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ebert-nakula.vercel.app/">
+    <meta property="og:title" content="Adiel Ebert Nakula Sahdiy | Creative Web Developer & Portfolio">
+    <meta property="og:description"
+        content="Menggabungkan estetika seni dengan teknologi web modern untuk menciptakan pengalaman digital yang berkarakter dan tak terlupakan.">
+    <meta property="og:image" content="EBERT.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ebert-nakula.vercel.app/">
+    <meta property="twitter:title" content="Adiel Ebert Nakula Sahdiy | Creative Web Developer">
+    <meta property="twitter:description" content="Menggabungkan estetika seni dengan teknologi web modern.">
+    <meta property="twitter:image" content="EBERT.webp">
+
+    <!-- Favicon Maximization -->
+    <link rel="icon" type="image/webp" href="EBERT.webp">
+    <link rel="apple-touch-icon" href="EBERT.webp">
+    <meta name="theme-color" content="#050505">
+
+    <!-- Comprehensive Schema.org -->
+    <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Adiel Ebert Nakula Sahdiy",
+        "url": "https://ebert-nakula.vercel.app/",
+        "image": "EBERT.webp",
+        "jobTitle": "Creative Web Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance"
+        },
+        "sameAs": [
+          "https://www.facebook.com/share/17zEJpERje/",
+          "https://www.instagram.com/adielebertnakula?igsh=YWhuNDVkeGozcjEw",
+          "https://www.tiktok.com/@ebertsandi?_r=1&_t=ZS-93yWk8YoaYs"
+        ],
+        "knowsAbout": ["Web Development", "UI/UX Design", "SEO", "Bootstrap", "JavaScript", "Html5", "CSS3", "Responsive Design"]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Adiel Ebert Portfolio",
+        "url": "https://ebert-nakula.vercel.app/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://ebert-nakula.vercel.app/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Flowraa - Website Wisata",
+            "url": "https://flowraa.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Harley Davidson - Travel Website",
+            "url": "https://harleydavidson-seven.vercel.app/packages.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cave Senja - Restaurant Website",
+            "url": "https://cave-senja.vercel.app/"
+          }
+        ]
+      }
+    ]
+    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -655,6 +750,7 @@
                 display: block;
                 background: linear-gradient(to bottom, #fff, #aaa);
                 -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-fill-color: transparent;
                 /* Metallic Gradient Text */
                 margin-top: 5px;
@@ -852,7 +948,7 @@
         <div class="container">
             <a class="navbar-brand" href="#">EBERT.</a>
             <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
+                data-bs-target="#navbarNav" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -869,13 +965,15 @@
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="mediaDropdown"
                             style="background-color: rgba(5,5,5,0.95); border: 1px solid rgba(212,175,55,0.2);">
                             <li><a class="dropdown-item" href="https://www.facebook.com/share/17zEJpERje/"
-                                    target="_blank"><i class="fab fa-facebook me-2"></i> Facebook</a></li>
+                                    target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook me-2"></i>
+                                    Facebook</a></li>
                             <li><a class="dropdown-item"
                                     href="https://www.instagram.com/adielebertnakula?igsh=YWhuNDVkeGozcjEw"
-                                    target="_blank"><i class="fab fa-instagram me-2"></i> Instagram</a></li>
+                                    target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram me-2"></i>
+                                    Instagram</a></li>
                             <li><a class="dropdown-item"
-                                    href="https://www.tiktok.com/@ebertsandi?_r=1&_t=ZS-93yWk8YoaYs" target="_blank"><i
-                                        class="fab fa-tiktok me-2"></i> TikTok</a></li>
+                                    href="https://www.tiktok.com/@ebertsandi?_r=1&_t=ZS-93yWk8YoaYs" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-tiktok me-2"></i> TikTok</a></li>
                         </ul>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
@@ -925,18 +1023,20 @@
                     <div class="hero-collage-container">
                         <!-- Top Left Accent -->
                         <div class="hero-small-img top-left">
-                            <img src="Desaintanpajudul.webp" alt="Portrait Detail">
-                            alt="Ebert Portrait Detail">
+                            <img src="Desaintanpajudul.webp" alt="Detail Estetika Web - Adiel Ebert" width="300"
+                                height="300" loading="lazy">
                         </div>
 
                         <!-- Main Central Image -->
                         <div class="hero-main-img">
-                            <img src="EBERT.webp" alt="Ebert Portrait">
+                            <img src="EBERT.webp" alt="Adiel Ebert Nakula Sahdiy - Professional Web Developer"
+                                width="600" height="800" fetchpriority="high">
                         </div>
 
                         <!-- Bottom Right Accent -->
                         <div class="hero-small-img bottom-right">
-                            <img src="Desaintanpajudul2.webp" alt="Portrait Accent">
+                            <img src="Desaintanpajudul2.webp" alt="Elemen Desain Kreatif - Adiel Ebert" width="300"
+                                height="300" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -956,8 +1056,9 @@
                         <!-- Image with Cool Frame -->
                         <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
                             <div class="about-frame">
-                                <img src="sdfgn.webp"
-                                    class="img-fluid" style="width: 100%; filter: contrast(1.1);" alt="Coding">
+                                <img src="sdfgn.webp" class="img-fluid" style="width: 100%; filter: contrast(1.1);"
+                                    alt="Proses Coding Web Development - Adiel Ebert" width="800" height="600"
+                                    loading="lazy">
                             </div>
                         </div>
 
@@ -969,7 +1070,7 @@
                                 style="font-size: 1.1rem; color: #ddd; border-left: 2px solid var(--gold-accent); padding-left: 20px; font-style: italic;">
                                 "Desain adalah kecerdasan yang dibuat terlihat."
                             </p>
-                            <p class="mb-5" style="color: #bbb; leading-relaxed: 1.8;">
+                            <p class="mb-5" style="color: #bbb; line-height: 1.8;">
                                 Saya adalah pengembang web dengan obsesi pada detail. Saya menggabungkan kode yang
                                 bersih dengan estetika yang **berkarakter**. Tujuan saya sederhana: membuat web yang
                                 tidak hanya berfungsi, tapi juga menginspirasi.
@@ -1063,7 +1164,9 @@
                         <div class="col-lg-4 col-md-6" data-aos="fade-up">
                             <div class="portfolio-card">
                                 <div class="portfolio-img-wrapper">
-                                    <img src="MinimalistWebsiteLaunchComputerMockupInstagramPost.webp" alt="Project 1">
+                                    <img src="MinimalistWebsiteLaunchComputerMockupInstagramPost.webp"
+                                        alt="Flowraa - Proyek Website Wisata Alam" width="800" height="800"
+                                        loading="lazy">
                                 </div>
                                 <div class="p-4 text-center">
                                     <h4
@@ -1085,7 +1188,9 @@
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="portfolio-card">
                                 <div class="portfolio-img-wrapper">
-                                    <img src="MinimalistWebsiteLaunchComputerMockupInstagramPost1.webp" alt="Project 2">
+                                    <img src="MinimalistWebsiteLaunchComputerMockupInstagramPost1.webp"
+                                        alt="Harley Davidson - Proyek Website Traveling Eksklusif" width="800"
+                                        height="800" loading="lazy">
                                 </div>
                                 <div class="p-4 text-center">
                                     <h4
@@ -1108,7 +1213,9 @@
                         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="portfolio-card">
                                 <div class="portfolio-img-wrapper">
-                                    <img src="MinimalistWebsiteLaunchComputerMockupInstagramPost2.webp" alt="Project 3">
+                                    <img src="MinimalistWebsiteLaunchComputerMockupInstagramPost2.webp"
+                                        alt="Cave Senja - Proyek Website Cafe dan Pemesanan" width="800" height="800"
+                                        loading="lazy">
                                 </div>
                                 <div class="p-4 text-center">
                                     <h4
@@ -1146,7 +1253,7 @@
                                     <div class="timeline-dot"></div>
                                     <h4 style="color: #fff; font-family: var(--font-heading);">SMK REKAYASA PERANGKAT
                                         LUNAK</h4>
-                                    <p class="small text-muted mb-1">SMK NMC | LAGI DI PERJUANGKAN</p>
+                                    <p class="small text-muted mb-1">SMK NMC | LAGI DI PERJUANGAN</p>
                                     <p class="text-muted-bright mb-2">Mendalami dasar-dasar pemrograman web, desain
                                         basis data, dan pengembangan website desktop dan mobile.</p>
                                     <ul class="text-muted small" style="list-style: none; padding-left: 0;">
@@ -1250,18 +1357,26 @@
                                 <i class="fas fa-map-marker-alt me-2 text-gold mt-3"></i> Jawa, Indonesia
                             </p>
                             <div class="d-flex gap-3">
-                                <a href="https://www.facebook.com/share/17zEJpERje/" target="_blank" class="social-btn"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/adielebertnakula?igsh=YWhuNDVkeGozcjEw" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.tiktok.com/@ebertsandi?_r=1&_t=ZS-93yWk8YoaYs" target="_blank" class="social-btn"><i class="fab fa-tiktok"></i></a>
+                                <a href="https://www.facebook.com/share/17zEJpERje/" target="_blank"
+                                    rel="noopener noreferrer" class="social-btn" aria-label="Facebook Adiel Ebert"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/adielebertnakula?igsh=YWhuNDVkeGozcjEw"
+                                    target="_blank" rel="noopener noreferrer" class="social-btn"
+                                    aria-label="Instagram Adiel Ebert"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.tiktok.com/@ebertsandi?_r=1&_t=ZS-93yWk8YoaYs" target="_blank"
+                                    rel="noopener noreferrer" class="social-btn" aria-label="TikTok Adiel Ebert"><i
+                                        class="fab fa-tiktok"></i></a>
                                 <a href="https://wa.me/6282245942611?text=HAI%20EBERT%20GANTENG" class="social-btn"
-                                    target="_blank"><i class="fab fa-whatsapp"></i></a>
+                                    target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Adiel Ebert"><i
+                                        class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Copyright Line -->
                     <div class="footer-bottom text-center pt-4 border-top border-secondary">
-                        <p class="small text-muted mb-0" style="color: #666; letter-spacing: 1px;">&copy; 2026 Adiel Ebert Nakula Sahdiy. Hak Cipta Dilindungi.</p>
+                        <p class="small text-muted mb-0" style="color: #666; letter-spacing: 1px;">&copy; 2026 Adiel
+                            Ebert Nakula Sahdiy. Hak Cipta Dilindungi.</p>
                     </div>
                 </div>
             </footer>

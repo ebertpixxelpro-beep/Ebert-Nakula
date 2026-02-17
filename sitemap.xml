@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!-- Halaman Utama + Peta Gambar Lengkap -->
+    <url>
+        <loc>https://ebert-nakula.vercel.app/</loc>
+        <lastmod>2026-02-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        
+        <!-- Gambar Profil Utama -->
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/EBERT.webp</image:loc>
+            <image:title>Adiel Ebert Nakula Sahdiy - Web Developer</image:title>
+            <image:caption>Creative Web Developer & Portfolio Owner</image:caption>
+        </image:image>
+
+        <!-- Elemen Desain Hero -->
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/Desaintanpajudul.webp</image:loc>
+            <image:title>Detail Estetika Web</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/Desaintanpajudul2.webp</image:loc>
+            <image:title>Elemen Kreatif</image:title>
+        </image:image>
+
+        <!-- Gambar About/Coding -->
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/sdfgn.webp</image:loc>
+            <image:title>Proses Coding Web Development</image:title>
+            <image:caption>Teknologi modern dan kode yang bersih</image:caption>
+        </image:image>
+
+        <!-- Portfolio Project 1: Flowraa -->
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/MinimalistWebsiteLaunchComputerMockupInstagramPost.webp</image:loc>
+            <image:title>Proyek Website Flowraa</image:title>
+            <image:caption>Website Wisata Alam dengan desain minimalis</image:caption>
+        </image:image>
+
+        <!-- Portfolio Project 2: Harley Davidson -->
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/MinimalistWebsiteLaunchComputerMockupInstagramPost1.webp</image:loc>
+            <image:title>Proyek Website Harley Davidson</image:title>
+            <image:caption>Layanan Travel Eksklusif</image:caption>
+        </image:image>
+
+        <!-- Portfolio Project 3: Cave Senja -->
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/MinimalistWebsiteLaunchComputerMockupInstagramPost2.webp</image:loc>
+            <image:title>Proyek Website Cave Senja</image:title>
+            <image:caption>Website Cafe & Resto dengan fitur pemesanan</image:caption>
+        </image:image>
+    </url>
+</urlset>

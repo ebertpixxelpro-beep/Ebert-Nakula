@@ -1,0 +1,22 @@
+{
+    "name": "Adiel Ebert Nakula Sahdiy | Web Developer Muda & Ganteng",
+    "short_name": "Ebert Portfolio",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#050505",
+    "theme_color": "#050505",
+    "description": "Portfolio Web Developer Muda, Ganteng & Kreatif berusia 17 tahun. Spesialisasi dalam desain web estetis.",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "EBERT.webp",
+            "type": "image/webp",
+            "sizes": "192x192"
+        },
+        {
+            "src": "EBERT.webp",
+            "type": "image/webp",
+            "sizes": "512x512"
+        }
+    ]
+}

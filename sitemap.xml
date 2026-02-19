@@ -6,14 +6,14 @@
     <!-- Halaman Utama + Peta Gambar Lengkap -->
     <url>
         <loc>https://ebert-nakula.vercel.app/</loc>
-        <lastmod>2026-02-17</lastmod>
+        <lastmod>2026-02-19</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
         
         <!-- Gambar Profil Utama -->
         <image:image>
             <image:loc>https://ebert-nakula.vercel.app/EBERT.webp</image:loc>
-            <image:title>Adiel Ebert Nakula Sahdiy - Web Developer</image:title>
+            <image:title>Adiel Ebert Nakula Sahdiy - Web Developer Muda & Ganteng</image:title>
             <image:caption>Creative Web Developer & Portfolio Owner</image:caption>
         </image:image>
 

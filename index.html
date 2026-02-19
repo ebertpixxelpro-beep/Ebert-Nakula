@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adiel Ebert Nakula Sahdiy | Creative Web Developer & Portfolio</title>
+    <title>Adiel Ebert Nakula Sahdiy | Web Developer Muda & Ganteng</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Portfolio Adiel Ebert Nakula Sahdiy - Creative Web Developer & Designer. Spesialisasi dalam desain web estetis, pengembangan aplikasi, dan solusi digital inovatif menggunakan teknologi modern.">
+        content="Portfolio Adiel Ebert Nakula Sahdiy - Web Developer Muda, Ganteng & Kreatif berusia 17 tahun. Spesialisasi dalam desain web estetis, pengembangan aplikasi, dan solusi digital inovatif.">
     <meta name="keywords"
-        content="Adiel Ebert Nakula Sahdiy, Web Developer, Frontend Developer, Portfolio, Desain Web, Bootstrap, HTML, CSS, JavaScript, Jasa Website, UI/UX Designer">
+        content="Adiel Ebert Nakula Sahdiy, Web Developer Ganteng, Web Developer 17 Tahun, Laki-laki, Frontend Developer, Portfolio, Desain Web, Bootstrap, HTML, CSS, JavaScript, Jasa Website, UI/UX Designer">
     <meta name="author" content="Adiel Ebert Nakula Sahdiy">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
@@ -27,20 +27,26 @@
     <meta property="og:url" content="https://ebert-nakula.vercel.app/">
     <meta property="og:title" content="Adiel Ebert Nakula Sahdiy | Creative Web Developer & Portfolio">
     <meta property="og:description"
-        content="Menggabungkan estetika seni dengan teknologi web modern untuk menciptakan pengalaman digital yang berkarakter dan tak terlupakan.">
+        content="Portfolio Web Developer Adiel Ebert Nakula Sahdiy (17 Tahun), Ganteng & Kreatif. Menggabungkan estetika seni dengan teknologi web modern untuk menciptakan pengalaman digital yang berkesan.">
     <meta property="og:image" content="EBERT.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://ebert-nakula.vercel.app/">
     <meta property="twitter:title" content="Adiel Ebert Nakula Sahdiy | Creative Web Developer">
-    <meta property="twitter:description" content="Menggabungkan estetika seni dengan teknologi web modern.">
+    <meta property="twitter:description"
+        content="Web Developer Muda & Ganteng (17 Tahun). Menggabungkan estetika seni dengan teknologi web modern.">
     <meta property="twitter:image" content="EBERT.webp">
+    <meta name="twitter:label1" content="Umur">
+    <meta name="twitter:data1" content="17 Tahun">
+    <meta name="twitter:label2" content="Status">
+    <meta name="twitter:data2" content="Web Developer Ganteng">
 
     <!-- Favicon Maximization -->
     <link rel="icon" type="image/webp" href="EBERT.webp">
     <link rel="apple-touch-icon" href="EBERT.webp">
     <meta name="theme-color" content="#050505">
+    <link rel="manifest" href="manifest.json">
 
     <!-- Comprehensive Schema.org -->
     <script type="application/ld+json">
@@ -49,9 +55,13 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Adiel Ebert Nakula Sahdiy",
+        "gender": "Male",
+        "description": "Seorang Web Developer muda berusia 17 tahun yang ganteng, kreatif, dan berbakat.",
         "url": "https://ebert-nakula.vercel.app/",
         "image": "EBERT.webp",
         "jobTitle": "Creative Web Developer",
+        "nationality": "Indonesian",
+        "knowsLanguage": ["Indonesian", "English", "Javanese"],
         "worksFor": {
           "@type": "Organization",
           "name": "Freelance"
@@ -61,7 +71,13 @@
           "https://www.instagram.com/adielebertnakula?igsh=YWhuNDVkeGozcjEw",
           "https://www.tiktok.com/@ebertsandi?_r=1&_t=ZS-93yWk8YoaYs"
         ],
-        "knowsAbout": ["Web Development", "UI/UX Design", "SEO", "Bootstrap", "JavaScript", "Html5", "CSS3", "Responsive Design"]
+        "knowsAbout": ["Web Development", "UI/UX Design", "SEO", "Bootstrap", "JavaScript", "Html5", "CSS3", "Responsive Design"],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Jawa",
+          "addressCountry": "ID"
+        },
+        "priceRange": "$$"
       },
       {
         "@context": "https://schema.org",
@@ -104,8 +120,9 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;1,6..96,400&family=Pirata+One&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&family=UnifrakturMaguntia&family=Tenor+Sans&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Pirata+One&family=Tenor+Sans&family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap"
         rel="stylesheet">
 
     <!-- Bootstrap CSS -->
@@ -148,9 +165,10 @@
 
         /* --- Global Headings --- */
         h1 {
-            font-family: var(--font-old-english);
-            font-weight: normal;
+            font-family: 'UnifrakturMaguntia', serif;
+            font-weight: 400;
             color: #fff;
+            letter-spacing: 2px;
         }
 
         h2 {
@@ -195,8 +213,10 @@
         }
 
         /* The Name Title */
-        .hero-title-large {
-            font-family: var(--font-old-english);
+        .hero-title-large,
+        #hero-name-title {
+            font-family: 'UnifrakturMaguntia', cursive !important;
+            font-weight: 400;
             font-size: clamp(3.5rem, 8vw, 6rem);
             /* Fluid typography */
             line-height: 1.1;
@@ -992,17 +1012,22 @@
                 <div class="col-lg-7">
                     <div data-aos="fade-right" data-aos-delay="0"
                         style="font-family: var(--font-heading); color: #888; letter-spacing: 5px; margin-bottom: 10px; font-size: 0.9rem;">
-                        PORTFOLIO</div>
+                        PORTFOLIO WEB DEVELOPER MUDA</div>
 
                     <!-- Proportionate Charismatic Title -->
-                    <h1 class="hero-title-large" style="line-height: 1;" data-aos="fade-down" data-aos-duration="1200">
+                    <h1 id="hero-name-title" class="hero-title-large"
+                        style="line-height: 1; font-family: 'UnifrakturMaguntia', serif !important; font-weight: 400 !important;"
+                        data-aos="fade-down" data-aos-duration="1200">
                         Adiel Ebert<br>
-                        <span style="color: var(--gold-accent);">Nakula Sahdiy</span>
+                        <span
+                            style="color: var(--gold-accent); font-family: 'UnifrakturMaguntia', serif !important; font-weight: 400 !important;">Nakula
+                            Sahdiy</span>
                     </h1>
 
                     <div class="hero-role-container" data-aos="fade-up" data-aos-delay="200">
                         <div class="hero-line"></div>
-                        <h2 class="hero-subtitle" style="letter-spacing: 3px; font-size: 1.5rem;">Creative Developer
+                        <h2 class="hero-subtitle" style="letter-spacing: 3px; font-size: 1.5rem;">Creative Developer &
+                            Designer Ganteng
                         </h2>
                     </div>
 
@@ -1029,8 +1054,9 @@
 
                         <!-- Main Central Image -->
                         <div class="hero-main-img">
-                            <img src="EBERT.webp" alt="Adiel Ebert Nakula Sahdiy - Professional Web Developer"
-                                width="600" height="800" fetchpriority="high">
+                            <img src="EBERT.webp"
+                                alt="Adiel Ebert Nakula Sahdiy - Web Developer Muda & Ganteng (17 Tahun)" width="600"
+                                height="800" fetchpriority="high">
                         </div>
 
                         <!-- Bottom Right Accent -->
@@ -1057,7 +1083,7 @@
                         <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
                             <div class="about-frame">
                                 <img src="sdfgn.webp" class="img-fluid" style="width: 100%; filter: contrast(1.1);"
-                                    alt="Proses Coding Web Development - Adiel Ebert" width="800" height="600"
+                                    alt="Adiel Ebert Nakula Sahdiy - Web Developer 17 Tahun" width="800" height="600"
                                     loading="lazy">
                             </div>
                         </div>
@@ -1071,7 +1097,8 @@
                                 "Desain adalah kecerdasan yang dibuat terlihat."
                             </p>
                             <p class="mb-5" style="color: #bbb; line-height: 1.8;">
-                                Saya adalah pengembang web dengan obsesi pada detail. Saya menggabungkan kode yang
+                                Saya adalah <strong>Adiel Ebert Nakula Sahdiy</strong>, pengembang web muda berusia 17
+                                tahun. Saya menggabungkan kode yang
                                 bersih dengan estetika yang **berkarakter**. Tujuan saya sederhana: membuat web yang
                                 tidak hanya berfungsi, tapi juga menginspirasi.
                             </p>
@@ -1307,11 +1334,15 @@
                             Mari diskusikan visi Anda dan ciptakan sesuatu yang luar biasa.
                         </p>
                         <div class="d-flex justify-content-center gap-3 flex-wrap">
-                            <a href="https://wa.me/6282245942611?text=HAI%20EBERT%20GANTENG" class="btn-charismatic"
-                                target="_blank" style="font-size: 1.2rem; padding: 20px 60px;">HUBUNGI SAYA</a>
                             <a href="https://jasah-website.vercel.app/" class="btn-charismatic"
-                                style="font-size: 1.2rem; padding: 20px 60px; border-color: #fff; color: #fff;">PESAN
-                                WEBSITE</a>
+                                style="font-size: 1.1rem; padding: 18px 40px; background: var(--gold-accent); color: #000; border: none; font-weight: bold; letter-spacing: 1px;">
+                                LIHAT PENAWARAN <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                            <a href="https://wa.me/6282245942611?text=Halo%20Mas%20Ebert,%20saya%20mau%20konsultasi%20website%20gratis"
+                                class="btn-charismatic" target="_blank"
+                                style="font-size: 1.1rem; padding: 18px 40px; background: transparent; border: 1px solid var(--gold-accent); color: var(--gold-accent); letter-spacing: 1px;">
+                                <i class="fab fa-whatsapp fa-lg me-2"></i> FREE KONSULTASI
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1376,7 +1407,7 @@
                     <!-- Copyright Line -->
                     <div class="footer-bottom text-center pt-4 border-top border-secondary">
                         <p class="small text-muted mb-0" style="color: #666; letter-spacing: 1px;">&copy; 2026 Adiel
-                            Ebert Nakula Sahdiy. Hak Cipta Dilindungi.</p>
+                            Ebert Nakula Sahdiy. Created with Passion & Style.</p>
                     </div>
                 </div>
             </footer>

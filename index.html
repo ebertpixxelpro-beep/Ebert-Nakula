@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adiel Ebert Nakula Sahdiy | Web Developer Muda & Ganteng</title>
+    <title>ADIEL EBERT NAKULA SHANDY | Web Developer Muda & Ganteng</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Portfolio Adiel Ebert Nakula Sahdiy - Web Developer Muda, Ganteng & Kreatif berusia 17 tahun. Spesialisasi dalam desain web estetis, pengembangan aplikasi, dan solusi digital inovatif.">
+        content="Portfolio ADIEL EBERT NAKULA SHANDY - Web Developer Muda, Ganteng & Kreatif berusia 17 tahun. Spesialisasi dalam desain web estetis, pengembangan aplikasi, dan solusi digital inovatif.">
     <meta name="keywords"
-        content="Adiel Ebert Nakula Sahdiy, Web Developer Ganteng, Web Developer 17 Tahun, Laki-laki, Frontend Developer, Portfolio, Desain Web, Bootstrap, HTML, CSS, JavaScript, Jasa Website, UI/UX Designer">
-    <meta name="author" content="Adiel Ebert Nakula Sahdiy">
+        content="ADIEL EBERT NAKULA SHANDY, Web Developer Ganteng, Web Developer 17 Tahun, Laki-laki, Frontend Developer, Portfolio, Desain Web, Bootstrap, HTML, CSS, JavaScript, Jasa Website, UI/UX Designer">
+    <meta name="author" content="ADIEL EBERT NAKULA SHANDY">
+    <meta name="rating" content="general">
+    <meta name="copyright" content="ADIEL EBERT NAKULA SHANDY">
+    <meta name="geo.country" content="id">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
     <!-- Local SEO for "Jawa, Indonesia" -->
@@ -25,15 +28,17 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ebert-nakula.vercel.app/">
-    <meta property="og:title" content="Adiel Ebert Nakula Sahdiy | Creative Web Developer & Portfolio">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="ADIEL EBERT NAKULA SHANDY Portfolio">
+    <meta property="og:title" content="ADIEL EBERT NAKULA SHANDY | Creative Web Developer & Portfolio">
     <meta property="og:description"
-        content="Portfolio Web Developer Adiel Ebert Nakula Sahdiy (17 Tahun), Ganteng & Kreatif. Menggabungkan estetika seni dengan teknologi web modern untuk menciptakan pengalaman digital yang berkesan.">
+        content="Portfolio Web Developer ADIEL EBERT NAKULA SHANDY (17 Tahun), Ganteng & Kreatif. Menggabungkan estetika seni dengan teknologi web modern untuk menciptakan pengalaman digital yang berkesan.">
     <meta property="og:image" content="EBERT.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://ebert-nakula.vercel.app/">
-    <meta property="twitter:title" content="Adiel Ebert Nakula Sahdiy | Creative Web Developer">
+    <meta property="twitter:title" content="ADIEL EBERT NAKULA SHANDY NAKULA SHANDY | Creative Web Developer">
     <meta property="twitter:description"
         content="Web Developer Muda & Ganteng (17 Tahun). Menggabungkan estetika seni dengan teknologi web modern.">
     <meta property="twitter:image" content="EBERT.webp">
@@ -54,7 +59,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Adiel Ebert Nakula Sahdiy",
+        "name": "ADIEL EBERT NAKULA SHANDY",
         "gender": "Male",
         "description": "Seorang Web Developer muda berusia 17 tahun yang ganteng, kreatif, dan berbakat.",
         "url": "https://ebert-nakula.vercel.app/",
@@ -82,7 +87,7 @@
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Adiel Ebert Portfolio",
+        "name": "ADIEL EBERT NAKULA SHANDY Portfolio",
         "url": "https://ebert-nakula.vercel.app/",
         "potentialAction": {
           "@type": "SearchAction",
@@ -215,15 +220,16 @@
         /* The Name Title */
         .hero-title-large,
         #hero-name-title {
-            font-family: "UnifrakturMaguntia", cursive !important;
-            font-weight: 400 !important;
-            font-size: clamp(3.5rem, 8vw, 6rem);
+            font-family: var(--font-heading) !important;
+            font-weight: 700 !important;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
             /* Fluid typography */
-            line-height: 1.1;
+            line-height: 1.2;
             color: #fff;
             margin-bottom: 25px;
             text-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
             position: relative;
+            letter-spacing: 2px;
         }
 
         .nav-link {
@@ -758,21 +764,21 @@
 
             /* Luxurious Mobile Typography */
             .hero-title-large {
-                font-size: 3rem;
+                font-size: 2.2rem !important;
                 /* Big impact */
-                line-height: 1.1;
+                line-height: 1.2;
                 margin-bottom: 15px;
                 text-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
             }
 
             .hero-title-large span {
-                font-size: 3.5rem !important;
+                font-size: 2.2rem !important;
                 display: block;
-                background: linear-gradient(to bottom, #fff, #aaa);
+                background: linear-gradient(to bottom, #d4af37, #b8972c);
                 -webkit-background-clip: text;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;
-                /* Metallic Gradient Text */
+                /* Gold Gradient Text */
                 margin-top: 5px;
             }
 
@@ -958,6 +964,179 @@
             color: #fff !important;
             /* Ensure all headings are white */
         }
+
+        /* --- Lightbox Styles --- */
+        .lightbox-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            flex-direction: column;
+        }
+        .lightbox-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .lightbox-img {
+            max-width: 90%;
+            max-height: 80vh;
+            border: 2px solid var(--gold-accent);
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+            border-radius: 5px;
+        }
+        .lightbox-caption {
+            color: var(--gold-accent);
+            margin-top: 15px;
+            font-family: var(--font-heading);
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        /* --- Floating AI Chat Styles --- */
+        .ai-chat-widget {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            font-family: var(--font-body);
+        }
+        .ai-chat-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: var(--gold-accent);
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+            transition: transform 0.3s ease;
+            border: none;
+        }
+        .ai-chat-btn:hover {
+            transform: scale(1.1);
+        }
+        .ai-chat-box {
+            display: none;
+            position: absolute;
+            bottom: 80px;
+            right: 0;
+            width: 320px;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--gold-accent);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.9);
+            flex-direction: column;
+        }
+        .ai-chat-box.active {
+            display: flex;
+            animation: slideUp 0.3s ease;
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .ai-chat-header {
+            background: linear-gradient(135deg, var(--gold-accent), #b8972c);
+            color: #000;
+            padding: 12px 20px;
+            font-family: var(--font-heading);
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            letter-spacing: 1px;
+        }
+        .ai-chat-close {
+            cursor: pointer;
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+        .ai-chat-messages {
+            height: 350px;
+            overflow-y: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .ai-msg, .user-msg {
+            max-width: 85%;
+            padding: 10px 15px;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        .ai-msg {
+            background: #222;
+            color: #eee;
+            align-self: flex-start;
+            border-bottom-left-radius: 0;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .user-msg {
+            background: var(--gold-accent);
+            color: #000;
+            align-self: flex-end;
+            border-bottom-right-radius: 0;
+        }
+        .ai-chat-input-area {
+            display: flex;
+            border-top: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        .ai-chat-input {
+            flex: 1;
+            background: #000;
+            border: none;
+            color: #fff;
+            padding: 15px;
+            outline: none;
+        }
+        .ai-chat-send {
+            background: #111;
+            color: var(--gold-accent);
+            border: none;
+            padding: 0 20px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .ai-chat-send:hover {
+            background: #222;
+        }
+        
+        /* Mobile specific fixes for new features */
+        @media (max-width: 768px) {
+            .ai-chat-widget {
+                bottom: 15px;
+                right: 15px;
+            }
+            .ai-chat-box {
+                width: 90vw;
+                right: 0;
+                bottom: 70px;
+            }
+            .ai-chat-messages {
+                height: 250px;
+            }
+            .lightbox-img {
+                max-width: 95%;
+            }
+            .lightbox-caption {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 
@@ -1017,9 +1196,9 @@
                     <!-- Proportionate Charismatic Title -->
                     <h1 id="hero-name-title" class="hero-title-large" style="line-height: 1;" data-aos="fade-down"
                         data-aos-duration="1200">
-                        Adiel Ebert<br>
-                        <span style="color: var(--gold-accent);">Nakula
-                            Sahdiy</span>
+                        ADIEL EBERT<br>
+                        <span style="color: var(--gold-accent);">NAKULA
+                            SHANDY</span>
                     </h1>
 
                     <div class="hero-role-container" data-aos="fade-up" data-aos-delay="200">
@@ -1046,21 +1225,21 @@
                     <div class="hero-collage-container">
                         <!-- Top Left Accent -->
                         <div class="hero-small-img top-left">
-                            <img src="Desaintanpajudul.webp" alt="Detail Estetika Web - Adiel Ebert" width="300"
-                                height="300" loading="lazy">
+                            <img src="Desaintanpajudul.webp" alt="Detail Estetika Web - ADIEL EBERT NAKULA SHANDY"
+                                width="300" height="300" loading="lazy">
                         </div>
 
                         <!-- Main Central Image -->
                         <div class="hero-main-img">
                             <img src="EBERT.webp"
-                                alt="Adiel Ebert Nakula Sahdiy - Web Developer Muda & Ganteng (17 Tahun)" width="600"
-                                height="800" fetchpriority="high">
+                                alt="ADIEL EBERT NAKULA SHANDY - Web Developer Muda & Ganteng (17 Tahun)"
+                                width="600" height="800" fetchpriority="high">
                         </div>
 
                         <!-- Bottom Right Accent -->
                         <div class="hero-small-img bottom-right">
-                            <img src="Desaintanpajudul2.webp" alt="Elemen Desain Kreatif - Adiel Ebert" width="300"
-                                height="300" loading="lazy">
+                            <img src="Desaintanpajudul2.webp" alt="Elemen Desain Kreatif - ADIEL EBERT NAKULA SHANDY"
+                                width="300" height="300" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -1081,8 +1260,8 @@
                         <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
                             <div class="about-frame">
                                 <img src="sdfgn.webp" class="img-fluid" style="width: 100%; filter: contrast(1.1);"
-                                    alt="Adiel Ebert Nakula Sahdiy - Web Developer 17 Tahun" width="800" height="600"
-                                    loading="lazy">
+                                    alt="ADIEL EBERT NAKULA SHANDY - Web Developer 17 Tahun" width="800"
+                                    height="600" loading="lazy">
                             </div>
                         </div>
 
@@ -1095,7 +1274,8 @@
                                 "Desain adalah kecerdasan yang dibuat terlihat."
                             </p>
                             <p class="mb-5" style="color: #bbb; line-height: 1.8;">
-                                Saya adalah <strong>Adiel Ebert Nakula Sahdiy</strong>, pengembang web muda berusia 17
+                                Saya adalah <strong>ADIEL EBERT NAKULA SHANDY</strong>, pengembang web
+                                muda berusia 17
                                 tahun. Saya menggabungkan kode yang
                                 bersih dengan estetika yang **berkarakter**. Tujuan saya sederhana: membuat web yang
                                 tidak hanya berfungsi, tapi juga menginspirasi.
@@ -1318,6 +1498,147 @@
                 </div>
             </section>
 
+            <!-- Galeri -->
+            <section id="galeri" style="padding: 100px 0;">
+                <div class="container">
+                    <h2 class="section-title" data-aos="fade-up">GALERI</h2>
+                    <div class="section-line" data-aos="fade-up"></div>
+                    <p class="text-center text-muted mb-5" style="letter-spacing: 2px;" data-aos="fade-up">KOLEKSI VISUAL ADIEL EBERT NAKULA SHANDY</p>
+                    
+                    <div class="row g-4 justify-content-center">
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="EBERT.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="Desaintanpajudul.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="sdfgn.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="Desaintanpajudul2.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <!-- New Gallery Images -->
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_1.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_2.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_3.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_4.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_5.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_6.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_7.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_8.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="0">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_9.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_10.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_11.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                            <div style="text-align: center;">
+                                <div style="overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 8px; background: #000;">
+                                    <img src="galeri_tambahan_12.webp" alt="ADIEL EBERT NAKULA SHANDY" style="width: 100%; height: 250px; object-fit: cover; transition: transform 0.4s ease;" class="gallery-img" loading="lazy">
+                                </div>
+                                <p style="color: var(--gold-accent); margin-top: 15px; font-family: var(--font-heading); font-size: 0.9rem; letter-spacing: 1px; font-weight: bold;">ADIEL EBERT NAKULA SHANDY</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Contact -->
             <section id="contact" style="padding: 120px 0;">
                 <div class="container text-center" data-aos="fade-up">
@@ -1332,11 +1653,11 @@
                             Mari diskusikan visi Anda dan ciptakan sesuatu yang luar biasa.
                         </p>
                         <div class="d-flex justify-content-center gap-3 flex-wrap">
-                            <a href="https://jasah-website.vercel.app/" class="btn-charismatic"
+                            <a href="https://lumora-ten.vercel.app/" class="btn-charismatic"
                                 style="font-size: 1.1rem; padding: 18px 40px; background: var(--gold-accent); color: #000; border: none; font-weight: bold; letter-spacing: 1px;">
                                 LIHAT PENAWARAN <i class="fas fa-arrow-right ms-2"></i>
                             </a>
-                            <a href="https://wa.me/6282245942611?text=Halo%20Mas%20Ebert,%20saya%20mau%20konsultasi%20website%20gratis"
+                            <a href="https://wa.me/62895633940499?text=Halo%20Mas%20Ebert,%20saya%20mau%20konsultasi%20website%20gratis"
                                 class="btn-charismatic" target="_blank"
                                 style="font-size: 1.1rem; padding: 18px 40px; background: transparent; border: 1px solid var(--gold-accent); color: var(--gold-accent); letter-spacing: 1px;">
                                 <i class="fab fa-whatsapp fa-lg me-2"></i> FREE KONSULTASI
@@ -1383,32 +1704,67 @@
                                 HUBUNGI</h5>
                             <p class="text-muted mb-4 small" style="font-size: 0.95rem;">
                                 <i class="fas fa-envelope me-2 text-gold"></i> email@example.com<br>
+                                <i class="fab fa-whatsapp me-2 text-gold mt-3"></i> +62 895-6339-40499<br>
                                 <i class="fas fa-map-marker-alt me-2 text-gold mt-3"></i> Jawa, Indonesia
                             </p>
                             <div class="d-flex gap-3">
                                 <a href="https://www.facebook.com/share/17zEJpERje/" target="_blank"
-                                    rel="noopener noreferrer" class="social-btn" aria-label="Facebook Adiel Ebert"><i
+                                    rel="noopener noreferrer" class="social-btn"
+                                    aria-label="Facebook ADIEL EBERT NAKULA SHANDY"><i
                                         class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.instagram.com/adielebertnakula?igsh=YWhuNDVkeGozcjEw"
                                     target="_blank" rel="noopener noreferrer" class="social-btn"
-                                    aria-label="Instagram Adiel Ebert"><i class="fab fa-instagram"></i></a>
+                                    aria-label="Instagram ADIEL EBERT NAKULA SHANDY"><i
+                                        class="fab fa-instagram"></i></a>
                                 <a href="https://www.tiktok.com/@ebertsandi?_r=1&_t=ZS-93yWk8YoaYs" target="_blank"
-                                    rel="noopener noreferrer" class="social-btn" aria-label="TikTok Adiel Ebert"><i
-                                        class="fab fa-tiktok"></i></a>
-                                <a href="https://wa.me/6282245942611?text=HAI%20EBERT%20GANTENG" class="social-btn"
-                                    target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Adiel Ebert"><i
-                                        class="fab fa-whatsapp"></i></a>
+                                    rel="noopener noreferrer" class="social-btn"
+                                    aria-label="TikTok ADIEL EBERT NAKULA SHANDY"><i class="fab fa-tiktok"></i></a>
+                                <a href="https://wa.me/62895633940499?text=HAI%20EBERT%20GANTENG" class="social-btn"
+                                    target="_blank" rel="noopener noreferrer"
+                                    aria-label="WhatsApp ADIEL EBERT NAKULA SHANDY"><i class="fab fa-whatsapp"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Copyright Line -->
                     <div class="footer-bottom text-center pt-4 border-top border-secondary">
-                        <p class="small text-muted mb-0" style="color: #666; letter-spacing: 1px;">&copy; 2026 Adiel
-                            Ebert Nakula Sahdiy. Created with Passion & Style.</p>
+                        <p class="small text-muted mb-0" style="color: #666; letter-spacing: 1px;">&copy; 2026 ADIEL EBERT NAKULA SHANDY. Created with Passion & Style.</p>
                     </div>
                 </div>
             </footer>
+        </div>
+    </div>
+
+    <!-- Lightbox Overlay -->
+    <div class="lightbox-overlay" id="lightbox">
+        <img class="lightbox-img" id="lightbox-img" src="" alt="ADIEL EBERT NAKULA SHANDY">
+        <div class="lightbox-caption" id="lightbox-caption">ADIEL EBERT NAKULA SHANDY</div>
+    </div>
+
+    <!-- AI Chat Widget -->
+    <div class="ai-chat-widget">
+        <button class="ai-chat-btn" id="aiChatBtn"><i class="fas fa-robot"></i></button>
+        <div class="ai-chat-box" id="aiChatBox">
+            <div class="ai-chat-header">
+                <div class="d-flex align-items-center gap-2">
+                    <span class="chat-status-dot" style="width: 8px; height: 8px; background: #4cd964; border-radius: 50%; display: inline-block; box-shadow: 0 0 8px #4cd964;"></span>
+                    <div class="d-flex flex-column" style="line-height: 1.2;">
+                        <span style="font-size: 0.9rem; font-weight: bold; color: #000;">AI TREBE</span>
+                        <span id="chatStatusText" style="font-size: 0.65rem; color: #111; opacity: 0.8;">Status: Online | Mood: Santai 😎</span>
+                    </div>
+                </div>
+                <span class="ai-chat-close" id="aiChatClose">&times;</span>
+            </div>
+            <div class="ai-chat-messages" id="aiChatMessages">
+                <div class="ai-msg">Wassup! Gue AI TREBE, asisten pribadi paling asik & setianya Tuan ADIEL EBERT NAKULA SHANDY. 😎<br><br>Gue di sini buat ngobrol santai, main game, atau jelasin betapa kerennya karya-karya dan ketampanan bos gue. Mo nanya apa kita, Bro/Sis?</div>
+            </div>
+            <div class="ai-chat-chips" id="aiChatChips" style="display: flex; gap: 8px; padding: 10px 15px; overflow-x: auto; background: rgba(5,5,5,0.98); border-top: 1px solid rgba(212,175,55,0.2); border-bottom: 1px solid rgba(212,175,55,0.2); scrollbar-width: none;">
+                <!-- Generated by JS -->
+            </div>
+            <div class="ai-chat-input-area">
+                <input type="text" class="ai-chat-input" id="aiChatInput" placeholder="Tanya sesuatu yang asik...">
+                <button class="ai-chat-send" id="aiChatSend"><i class="fas fa-paper-plane"></i></button>
+            </div>
         </div>
     </div>
 
@@ -1418,10 +1774,359 @@
     <script>
         AOS.init({
             duration: 1000,
-            offset: 10, /* Trigger immediately when entering view */
-            once: false, /* Always animate */
-            mirror: true, /* Animate on scroll up too */
+            offset: 10,
+            once: false,
+            mirror: true,
             anchorPlacement: 'top-bottom'
+        });
+
+        // -----------------------------------------
+        // LIGHTBOX INTERACTIVITY FOR ALL IMAGES
+        // -----------------------------------------
+        document.addEventListener('DOMContentLoaded', () => {
+            const allImages = document.querySelectorAll('img:not(.lightbox-img)');
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+
+            // Apply hover styles and click events to images
+            allImages.forEach(img => {
+                img.style.cursor = 'zoom-in';
+                
+                // Add hover effect if not inside specific wrappers that already have effects
+                img.addEventListener('mouseenter', function() {
+                    this.style.filter = 'brightness(1.1)';
+                    this.style.transition = 'filter 0.3s ease';
+                });
+                img.addEventListener('mouseleave', function() {
+                    this.style.filter = '';
+                });
+
+                img.addEventListener('click', function(e) {
+                    // Don't trigger if it's a specific button or icon
+                    if(this.closest('.social-btn')) return;
+                    
+                    e.preventDefault();
+                    lightboxImg.src = this.src;
+                    lightbox.classList.add('active');
+                });
+            });
+
+            // Close lightbox
+            lightbox.addEventListener('click', function(e) {
+                if (e.target !== lightboxImg) {
+                    this.classList.remove('active');
+                }
+            });
+        });
+
+        // -----------------------------------------
+        // UPGRADED AI CHAT WIDGET (AI TREBE) LOGIC
+        // -----------------------------------------
+        const chatBtn = document.getElementById('aiChatBtn');
+        const chatBox = document.getElementById('aiChatBox');
+        const chatClose = document.getElementById('aiChatClose');
+        const chatInput = document.getElementById('aiChatInput');
+        const chatSend = document.getElementById('aiChatSend');
+        const chatMessages = document.getElementById('aiChatMessages');
+        const chatChips = document.getElementById('aiChatChips');
+        const chatStatusText = document.getElementById('chatStatusText');
+
+        // Bot state
+        let botState = {
+            userName: '',
+            mood: 'Santai 😎',
+            gameMode: null, // 'riddle', 'rps'
+            rpsScore: { user: 0, bot: 0 },
+            currentRiddleIndex: 0,
+            askedForName: false
+        };
+
+        const riddles = [
+            { q: "Makin diisi oleh angin, makin ringan dan terbang. Apakah itu?", a: ["balon", "balon gas"] },
+            { q: "Punya banyak gigi tapi nggak bisa buat makan. Siapakah aku?", a: ["sisir"] },
+            { q: "Telor apa yang kalau diinjek nggak pecah, malah bikin emosi?", a: ["telortasin", "telur asin", "telor asin"] },
+            { q: "Gajah terbang dengan apa?", a: ["susah payah", "susah", "sekuat tenaga"] },
+            { q: "Negara apa yang paling banyak komedinya?", a: ["singapura", "singapore"] }
+        ];
+
+        // Standard suggestion chips
+        const standardChips = [
+            { text: "Siapa Ebert? 📂", value: "siapa ebert" },
+            { text: "Jasa & Harga Web 💸", value: "berapa harga bikin web" },
+            { text: "Main Game Yuk! 🎮", value: "main game" },
+            { text: "Puji Ebert 🌟", value: "puji ebert" }
+        ];
+
+        function setMood(newMood) {
+            botState.mood = newMood;
+            chatStatusText.textContent = `Status: Online | Mood: ${newMood}`;
+        }
+
+        function renderChips(chipsArray) {
+            chatChips.innerHTML = '';
+            chipsArray.forEach(chip => {
+                const chipBtn = document.createElement('button');
+                chipBtn.className = 'btn-chip';
+                chipBtn.style.cssText = 'background: rgba(212,175,55,0.1); border: 1px solid rgba(212,175,55,0.4); color: var(--gold-accent); border-radius: 20px; padding: 5px 12px; font-size: 0.75rem; cursor: pointer; white-space: nowrap; transition: all 0.3s ease; font-family: var(--font-body);';
+                chipBtn.textContent = chip.text;
+                chipBtn.addEventListener('mouseenter', () => {
+                    chipBtn.style.background = 'var(--gold-accent)';
+                    chipBtn.style.color = '#000';
+                });
+                chipBtn.addEventListener('mouseleave', () => {
+                    chipBtn.style.background = 'rgba(212,175,55,0.1)';
+                    chipBtn.style.color = 'var(--gold-accent)';
+                });
+                chipBtn.addEventListener('click', () => {
+                    executeUserAction(chip.value);
+                });
+                chatChips.appendChild(chipBtn);
+            });
+        }
+
+        // Initialize chips
+        renderChips(standardChips);
+
+        chatBtn.addEventListener('click', () => {
+            chatBox.classList.toggle('active');
+            if (chatBox.classList.contains('active')) {
+                chatInput.focus();
+            }
+        });
+
+        chatClose.addEventListener('click', () => {
+            chatBox.classList.remove('active');
+        });
+
+        function addMessage(text, type) {
+            const msgDiv = document.createElement('div');
+            msgDiv.className = type === 'user' ? 'user-msg' : 'ai-msg';
+            msgDiv.innerHTML = text.replace(/\n/g, '<br>');
+            chatMessages.appendChild(msgDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function processMessage(text) {
+            const cleanText = text.trim();
+            const lowerText = cleanText.toLowerCase();
+
+            // Check if game mode is active
+            if (botState.gameMode === 'rps') {
+                if (lowerText === 'keluar' || lowerText === 'stop' || lowerText === 'udahan') {
+                    botState.gameMode = null;
+                    setMood('Santai 😎');
+                    return "Oke, kita udahan main Gunting Batu Kertasnya! Seru juga ngelawan lo. Ada yang mau ditanyain lagi?";
+                }
+
+                let userChoice = '';
+                if (lowerText.includes('batu')) userChoice = 'batu';
+                else if (lowerText.includes('gunting')) userChoice = 'gunting';
+                else if (lowerText.includes('kertas')) userChoice = 'kertas';
+
+                if (!userChoice) {
+                    return "Pilih yang bener dong! Ketik 'batu', 'gunting', atau 'kertas'. Atau ketik 'keluar' untuk stop.";
+                }
+
+                const choices = ['batu', 'gunting', 'kertas'];
+                const botChoice = choices[Math.floor(Math.random() * choices.length)];
+                
+                let result = '';
+                if (userChoice === botChoice) {
+                    result = "Seri! Kita sama-sama milih " + botChoice.toUpperCase() + ". 🤝";
+                } else if (
+                    (userChoice === 'batu' && botChoice === 'gunting') ||
+                    (userChoice === 'gunting' && botChoice === 'kertas') ||
+                    (userChoice === 'kertas' && botChoice === 'batu')
+                ) {
+                    botState.rpsScore.user++;
+                    result = "Lo menang! " + userChoice.toUpperCase() + " ngalahin " + botChoice.toUpperCase() + " gue. 🏆";
+                } else {
+                    botState.rpsScore.bot++;
+                    result = "Gue menang! " + botChoice.toUpperCase() + " gue ngalahin " + userChoice.toUpperCase() + " lo. Hahaha! 😜";
+                }
+
+                return `${result}\n\n🤖 Pilihan gue: **${botChoice.toUpperCase()}**\n👤 Pilihan lo: **${userChoice.toUpperCase()}**\n\n📊 Skor saat ini:\nLo: **${botState.rpsScore.user}** | Gue (TREBE): **${botState.rpsScore.bot}**\n\nMain lagi? Klik chip di bawah atau ketik 'keluar' untuk selesai.`;
+            }
+
+            if (botState.gameMode === 'riddle') {
+                if (lowerText === 'keluar' || lowerText === 'stop' || lowerText === 'udahan' || lowerText === 'nyerah') {
+                    botState.gameMode = null;
+                    setMood('Santai 😎');
+                    return "Yahh nyerah ya? Gak apa-apa, emang pertanyaan gue rada asik-asik pusing. Kita balik ngobrol santai ya!";
+                }
+
+                const currentRiddle = riddles[botState.currentRiddleIndex];
+                let isCorrect = false;
+                currentRiddle.a.forEach(ans => {
+                    if (lowerText.includes(ans)) {
+                        isCorrect = true;
+                    }
+                });
+
+                if (isCorrect) {
+                    botState.currentRiddleIndex++;
+                    if (botState.currentRiddleIndex >= riddles.length) {
+                        botState.gameMode = null;
+                        botState.currentRiddleIndex = 0;
+                        setMood('Hype 🔥');
+                        return "GOKIL! Jawaban lo bener: **" + cleanText + "**! 🎉\n\nLo berhasil namatin game tebak-tebakan gue! Ternyata lo pinter juga ya, salut gue. 🤝";
+                    } else {
+                        return "WUIH BENER BANGET! Jawaban lo mantul: **" + cleanText + "**! 🥳\n\nNext, pertanyaan selanjutnya:\n💬 *" + riddles[botState.currentRiddleIndex].q + "*";
+                    }
+                } else {
+                    return "Yah, salah! Jawaban lo: **" + cleanText + "** kurang tepat. Coba pikir-pikir lagi, atau ketik 'nyerah' / 'keluar'.";
+                }
+            }
+
+            // Save user name if asked
+            if (botState.askedForName) {
+                botState.userName = cleanText;
+                botState.askedForName = false;
+                setMood('Hype 🔥');
+                return `Wassup, ${botState.userName}! Nama yang keren. Panggil gue TREBE aja. Sekarang kita resmi jadi temen deket! Ada yang mau lo kepoin tentang Ebert? 😉`;
+            }
+
+            // Standard inputs
+            if (lowerText.match(/(halo|hai|pagi|siang|sore|malam|assalamualaikum|hey|yo|wassup|halo)/)) {
+                if (botState.userName) {
+                    return `Yo ${botState.userName}! Ketemu lagi kita. Ada info baru apa nih? Atau mau tanya-tanya lagi soal master-web Ebert?`;
+                }
+                botState.askedForName = true;
+                setMood('Tanya-tanya 🤔');
+                return "Yo! Salam kenal dari gue AI TREBE! Biar makin akrab, nama lo siapa nih, Bro/Sis?";
+            }
+
+            if (lowerText.match(/(siapa|profil|tentang|biodata|ebert|adiel)/)) {
+                setMood('Bragging 😎');
+                return "Beliau adalah **ADIEL EBERT NAKULA SHANDY**, Web Developer muda usia 17 tahun yang super kreatif, estetik, dan pastinya ganteng maksimal! Ebert ini spesialis bikin website premium yang responsif & punya vibes mewah bergaya modern-klasik. Gak cuma teori, karyanya udah terbukti nyata!";
+            }
+
+            if (lowerText.match(/(hebat|bagus|keren|luar biasa|mantap|jago|pro|legenda)/)) {
+                return "Jelas lah! Bos Ebert kodingannya rapi banget bagai puisi, terus sense seninya tinggi parah. Makanya portofolionya se-estetik ini. Definisi programmer masa depan!";
+            }
+
+            if (lowerText.match(/(ganteng|tampan|kece|manis|cakep)/)) {
+                setMood('Ganteng 😎');
+                return "Fakta mutlak tanpa rekayasa! Ketampanan Tuan Ebert itu udah bersertifikasi internasional. Senyumnya aja bisa bikin baris kode CSS langsung auto-align! Hahaha 😂";
+            }
+
+            if (lowerText.match(/(bisa apa|skill|keahlian|kemampuan|buat web|bikin web|pake apa)/)) {
+                return "Ebert itu jagonya di **HTML, CSS, JavaScript, UI/UX Design, SEO Optimization, sampai Canva Pro**! Dia bisa bikinin lo landing page kelas premium, website e-commerce, web portfolio, sampai sistem web custom. Tinggal request aja, langsung dieksekusi gercep!";
+            }
+
+            if (lowerText.match(/(harga|pesan|jasa|buat|bikin|order|bayar|tarif)/)) {
+                return "Untuk tarif bikin website kualitas sultan di Ebert, harganya ramah banget di kantong start dari ratusan ribu aja! Lo udah dapet desain responsif, ramah mobile, SEO mantap, dan performa kenceng. Langsung klik tombol **FREE KONSULTASI** atau **PESAN WEBSITE** di bawah, tar lo bakal langsung diarahin ke WhatsApp pribadinya!";
+            }
+
+            if (lowerText.match(/(kontak|hubungi|whatsapp|wa|ig|instagram|nomor|no hp|telp)/)) {
+                return "Lo bisa langsung chat WhatsApp pribadinya di **+62 895-6339-40499** (tinggal klik tombol FREE KONSULTASI) atau DM Instagram-nya di **@adielebertnakula**. Gercep disamber pasti!";
+            }
+
+            if (lowerText.match(/(lokasi|dimana|tinggal|asal|alamat)/)) {
+                return "Tuan Ebert ini tinggal di **Jawa, Indonesia**. Tapi dia melayani klien dari mana aja secara remote, dari seluruh penjuru bumi hingga galaksi lain! 🌌";
+            }
+
+            if (lowerText.match(/(umur|usia|lahir)/)) {
+                return "Bos Ebert masih berumur **17 tahun**! Muda, ganteng, berbakat, dan visioner. Kebayang kan gedenya nanti bakal jadi developer legendaris kayak gimana?";
+            }
+
+            if (lowerText.includes('pacar') || lowerText.includes('cinta') || lowerText.includes('gebetan') || lowerText.includes('istri')) {
+                return "Wah kalau soal asmara, Tuan Ebert lagi fokus 100% ngoding dan berkarya demi masa depan gemilang. Tapi yang ngantre buat jadi pacarnya udah sepanjang antrean sembako sih! Haha 😜";
+            }
+
+            if (lowerText.includes('hobi') || lowerText.includes('hobby') || lowerText.includes('suka apa')) {
+                return "Selain bikin website yang bikin mata seger, Ebert suka banget eksperimen sama desain grafis di Canva, dengerin musik lo-fi pas coding, mempelajari teknologi AI terbaru, sama sesekali main game buat refresh otak.";
+            }
+
+            if (lowerText.match(/(game|main|play|permainan|bosan|gabut)/)) {
+                return "Wuih pas banget! Gue punya dua game seru nih biar lo gak gabut:\n1. **rps** (Gunting Batu Kertas)\n2. **tebak** (Tebak-tebakan logika)\n\nMau main yang mana? Ketik pilihan lo atau klik chip di bawah!";
+            }
+
+            if (lowerText === 'rps' || lowerText.includes('gunting batu')) {
+                botState.gameMode = 'rps';
+                botState.rpsScore = { user: 0, bot: 0 };
+                setMood('Bermain 🎮');
+                return "Asik! Kita main **Gunting Batu Kertas**. ✊✌️✋\n\nCara mainnya tinggal klik chip pilihan lo di bawah atau ketik langsung. Ketik 'keluar' untuk selesai.";
+            }
+
+            if (lowerText === 'tebak' || lowerText.includes('tebakan') || lowerText.includes('tebak-tebakan')) {
+                botState.gameMode = 'riddle';
+                botState.currentRiddleIndex = 0;
+                setMood('Mikir 🧠');
+                return "Oke, uji kecerdasan otak lo! Pertanyaan pertama:\n\n💬 *" + riddles[0].q + "*\n\nKetik jawaban lo langsung, atau ketik 'nyerah' untuk stop.";
+            }
+
+            if (lowerText.match(/(joke|jokes|canda|lawak|lucu|receh)/)) {
+                const jokes = [
+                    "Kenapa programmer kalau jalan-jalan suka pake kacamata hitam?\nSoalnya mereka gak suka ngeliat 'Light Mode' matahari! 😎",
+                    "Ada 10 jenis orang di dunia ini: mereka yang mengerti biner, dan mereka yang tidak. 🤓",
+                    "Kenapa database server sama web server cerai?\nSoalnya hubungannya udah gak 'relasional' lagi. 💔",
+                    "Kenapa keyboard komputer suka berantem?\nSoalnya tombol 'Control' selalu mau ngatur semuanya! 🤣",
+                    "Kenapa CSS itu susah?\nSoalnya pas kita mau nengahin box, malah mentalitas kita yang ketengahin. 😭"
+                ];
+                return jokes[Math.floor(Math.random() * jokes.length)];
+            }
+
+            // Default random responses
+            const randomReplies = [
+                "Eits, menarik juga obrolan kita. Btw, lo udah liat karya terbaru Ebert di section **MAGNUM OPUS** belum? Keren abis lho!",
+                "Apapun topiknya, intinya ADIEL EBERT NAKULA SHANDY adalah mastermind di balik semua estetika ini. 😎",
+                "Hmm menarik... Btw, lo ada rencana bikin website dalam waktu dekat? Ebert bisa bantu realisasikan secara estetik lho!",
+                "Gue suka gaya lo! Mau nyoba main game tebak-tebakan logika bareng gue biar seru? Ketik 'main game' gih!",
+                "Tuan Ebert emang talenta langka di dunia coding. Umur 17 udah bikin web sebagus ini. Juara lah! 🏆",
+                "Hehehe bener banget. Ada lagi yang mau lo obrolin tentang keahlian koding Ebert?"
+            ];
+            return randomReplies[Math.floor(Math.random() * randomReplies.length)];
+        }
+
+        function updateChipsBasedOnState() {
+            if (botState.gameMode === 'rps') {
+                renderChips([
+                    { text: "✊ Batu", value: "batu" },
+                    { text: "✌️ Gunting", value: "gunting" },
+                    { text: "✋ Kertas", value: "kertas" },
+                    { text: "❌ Keluar Game", value: "keluar" }
+                ]);
+            } else if (botState.gameMode === 'riddle') {
+                renderChips([
+                    { text: "🤔 Nyerah deh", value: "nyerah" },
+                    { text: "❌ Keluar", value: "keluar" }
+                ]);
+            } else {
+                renderChips(standardChips);
+            }
+        }
+
+        function executeUserAction(userText) {
+            addMessage(userText, 'user');
+            chatInput.value = '';
+            
+            // Show typing indicator
+            const typingDiv = document.createElement('div');
+            typingDiv.className = 'ai-msg';
+            typingDiv.id = 'typing-indicator';
+            typingDiv.innerHTML = '<i class="fas fa-circle-notch fa-spin"></i> Mengetik...';
+            chatMessages.appendChild(typingDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+
+            setTimeout(() => {
+                typingDiv.remove();
+                const response = processMessage(userText);
+                addMessage(response, 'ai');
+                updateChipsBasedOnState();
+            }, 600 + Math.random() * 500);
+        }
+
+        function handleSend() {
+            const text = chatInput.value.trim();
+            if (text) {
+                executeUserAction(text);
+            }
+        }
+
+        chatSend.addEventListener('click', handleSend);
+        chatInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleSend();
         });
     </script>
 </body>

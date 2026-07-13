@@ -13,7 +13,7 @@
         <!-- Gambar Profil Utama -->
         <image:image>
             <image:loc>https://ebert-nakula.vercel.app/EBERT.webp</image:loc>
-            <image:title>Adiel Ebert Nakula Sahdiy - Web Developer Muda & Ganteng</image:title>
+            <image:title>Adiel Ebert Nakula Shandy - Web Developer Muda & Ganteng</image:title>
             <image:caption>Creative Web Developer & Portfolio Owner</image:caption>
         </image:image>
 
@@ -53,6 +53,56 @@
             <image:loc>https://ebert-nakula.vercel.app/MinimalistWebsiteLaunchComputerMockupInstagramPost2.webp</image:loc>
             <image:title>Proyek Website Cave Senja</image:title>
             <image:caption>Website Cafe & Resto dengan fitur pemesanan</image:caption>
+        </image:image>
+
+        <!-- Galeri Tambahan -->
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_1.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 1</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_2.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 2</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_3.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 3</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_4.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 4</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_5.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 5</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_6.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 6</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_7.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 7</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_8.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 8</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_9.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 9</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_10.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 10</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_11.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 11</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://ebert-nakula.vercel.app/galeri_tambahan_12.webp</image:loc>
+            <image:title>Galeri Portofolio ADIEL EBERT NAKULA SHANDY 12</image:title>
         </image:image>
     </url>
 </urlset>
